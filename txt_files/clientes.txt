@@ -1,0 +1,4 @@
+juan 1100 3 egipto_1 grecia_1 holanda_1
+luis 800 2 egipto_1 grecia_2
+victor 500 2 grecia_1 holanda_1
+ana 300 1 holanda_1

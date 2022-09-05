@@ -1,0 +1,14 @@
+grecia_1 2 1000
+2
+Me encanto la experiencia. Muy bien organizado.
+Grecia es una ciudad mágica y el viaje esta súper bien.
+egipto_1 1 750
+1
+Volveria a repetir la experiencia. Lo recomiendo.
+holanda_1 2 135
+3
+Muy buen precio y estupendo viaje.
+Demasiados lugares a visitar en tan poco tiempo.
+Acabe agotada y no volvería a repetir.
+grecia_2 3 200
+0
