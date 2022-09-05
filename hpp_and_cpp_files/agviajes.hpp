@@ -41,8 +41,8 @@ namespace umalcc
         typedef estructura_clientes *nodo_clientes;
         struct estructura_clientes
         {
-            Cliente cliente;
             int num_reservas;
+            Cliente cliente;
             Vector_Paquetes paquetes;
             nodo_clientes sig;
         };
