@@ -29,21 +29,22 @@ namespace umalcc
     private:
         struct estructura_paquetes;
         typedef estructura_paquetes *nodo_paquetes;
+        typedef Opiniones std::deque<std::string>
         struct estructura_paquetes
         {
-            nodo_paquetes sig;
             umalcc::Paquete paquete;
-            std::deque<std::string> opiniones;
+            Opiniones opiniones;
+            nodo_paquetes sig;
         };
         typedef std::vector<nodo_paquetes> Vector_Paquetes;
         struct estructura_clientes;
         typedef estructura_clientes *nodo_clientes;
         struct estructura_clientes
         {
-            nodo_clientes sig;
             Cliente cliente;
             int num_reservas;
             Vector_Paquetes paquetes;
+            nodo_clientes sig;
         };
         nodo_paquetes paquetes;
         nodo_clientes clientes;
